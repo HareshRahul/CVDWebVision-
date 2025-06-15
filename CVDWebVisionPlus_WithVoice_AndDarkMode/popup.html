@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>CVDWebVision+</title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body class="light">
+  <div class="container">
+    <h1 class="logo">🎨 CVDWebVision+</h1>
+    <p class="subtitle">Make the web colorblind-friendly</p>
+
+    <label for="filterSelect">Correction Mode:</label>
+    <select id="filterSelect" class="dropdown">
+      <option value="none">🔓 Off</option>
+      <option value="protanopia">🔴 Protanopia</option>
+      <option value="deuteranopia">🟢 Deuteranopia</option>
+      <option value="tritanopia">🔵 Tritanopia</option>
+    </select>
+
+    <label><input type="checkbox" id="labelSwatches" /> 🏷️ Label product colors</label>
+    <label><input type="checkbox" id="detectCharts" /> 📊 Enhance charts</label>
+    <label><input type="checkbox" id="darkModeToggle" /> 🌙 Dark Mode</label>
+
+    <button id="voiceBtn">🎙️ Voice Command</button>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
